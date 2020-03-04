@@ -24,7 +24,7 @@ public class Google {
             System.out.println("WebPage Successfully Opened");
             WebElement SearchBox = driver.findElement(By.name("q"));
             
-            SearchBox.sendKeys("Hello World");
+            SearchBox.sendKeys("Hello World Mohit is Here");
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[2]/div[2]/ul/li[3]/div/div[2]/div")).click();
             driver.findElement(By.xpath("//h3[@class=\"LC20lb DKV0Md\"]")).click();
